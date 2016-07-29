@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		885E712E1D4AFF3100555E07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E712D1D4AFF3100555E07 /* main.m */; };
+		885E71311D4AFF3100555E07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E71301D4AFF3100555E07 /* AppDelegate.m */; };
+		885E71341D4AFF3100555E07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E71331D4AFF3100555E07 /* ViewController.m */; };
+		885E71371D4AFF3100555E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885E71351D4AFF3100555E07 /* Main.storyboard */; };
+		885E71391D4AFF3100555E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885E71381D4AFF3100555E07 /* Assets.xcassets */; };
+		885E713C1D4AFF3100555E07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885E713A1D4AFF3100555E07 /* LaunchScreen.storyboard */; };
+		885E71471D4AFF3100555E07 /* liudaliudaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E71461D4AFF3100555E07 /* liudaliudaTests.m */; };
+		885E71521D4AFF3100555E07 /* liudaliudaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885E71511D4AFF3100555E07 /* liudaliudaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		885E71431D4AFF3100555E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885E71211D4AFF3000555E07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885E71281D4AFF3000555E07;
+			remoteInfo = liudaliuda;
+		};
+		885E714E1D4AFF3100555E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885E71211D4AFF3000555E07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885E71281D4AFF3000555E07;
+			remoteInfo = liudaliuda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		885E71291D4AFF3000555E07 /* liudaliuda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liudaliuda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885E712D1D4AFF3100555E07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		885E712F1D4AFF3100555E07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		885E71301D4AFF3100555E07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		885E71321D4AFF3100555E07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		885E71331D4AFF3100555E07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		885E71361D4AFF3100555E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		885E71381D4AFF3100555E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		885E713B1D4AFF3100555E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		885E713D1D4AFF3100555E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885E71421D4AFF3100555E07 /* liudaliudaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liudaliudaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885E71461D4AFF3100555E07 /* liudaliudaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = liudaliudaTests.m; sourceTree = "<group>"; };
+		885E71481D4AFF3100555E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885E714D1D4AFF3100555E07 /* liudaliudaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liudaliudaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885E71511D4AFF3100555E07 /* liudaliudaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = liudaliudaUITests.m; sourceTree = "<group>"; };
+		885E71531D4AFF3100555E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885E71261D4AFF3000555E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885E713F1D4AFF3100555E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885E714A1D4AFF3100555E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		885E71201D4AFF3000555E07 = {
+			isa = PBXGroup;
+			children = (
+				885E712B1D4AFF3100555E07 /* liudaliuda */,
+				885E71451D4AFF3100555E07 /* liudaliudaTests */,
+				885E71501D4AFF3100555E07 /* liudaliudaUITests */,
+				885E712A1D4AFF3000555E07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885E712A1D4AFF3000555E07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885E71291D4AFF3000555E07 /* liudaliuda.app */,
+				885E71421D4AFF3100555E07 /* liudaliudaTests.xctest */,
+				885E714D1D4AFF3100555E07 /* liudaliudaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885E712B1D4AFF3100555E07 /* liudaliuda */ = {
+			isa = PBXGroup;
+			children = (
+				885E712F1D4AFF3100555E07 /* AppDelegate.h */,
+				885E71301D4AFF3100555E07 /* AppDelegate.m */,
+				885E71321D4AFF3100555E07 /* ViewController.h */,
+				885E71331D4AFF3100555E07 /* ViewController.m */,
+				885E71351D4AFF3100555E07 /* Main.storyboard */,
+				885E71381D4AFF3100555E07 /* Assets.xcassets */,
+				885E713A1D4AFF3100555E07 /* LaunchScreen.storyboard */,
+				885E713D1D4AFF3100555E07 /* Info.plist */,
+				885E712C1D4AFF3100555E07 /* Supporting Files */,
+			);
+			path = liudaliuda;
+			sourceTree = "<group>";
+		};
+		885E712C1D4AFF3100555E07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				885E712D1D4AFF3100555E07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		885E71451D4AFF3100555E07 /* liudaliudaTests */ = {
+			isa = PBXGroup;
+			children = (
+				885E71461D4AFF3100555E07 /* liudaliudaTests.m */,
+				885E71481D4AFF3100555E07 /* Info.plist */,
+			);
+			path = liudaliudaTests;
+			sourceTree = "<group>";
+		};
+		885E71501D4AFF3100555E07 /* liudaliudaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				885E71511D4AFF3100555E07 /* liudaliudaUITests.m */,
+				885E71531D4AFF3100555E07 /* Info.plist */,
+			);
+			path = liudaliudaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		885E71281D4AFF3000555E07 /* liudaliuda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885E71561D4AFF3100555E07 /* Build configuration list for PBXNativeTarget "liudaliuda" */;
+			buildPhases = (
+				885E71251D4AFF3000555E07 /* Sources */,
+				885E71261D4AFF3000555E07 /* Frameworks */,
+				885E71271D4AFF3000555E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liudaliuda;
+			productName = liudaliuda;
+			productReference = 885E71291D4AFF3000555E07 /* liudaliuda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		885E71411D4AFF3100555E07 /* liudaliudaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885E71591D4AFF3100555E07 /* Build configuration list for PBXNativeTarget "liudaliudaTests" */;
+			buildPhases = (
+				885E713E1D4AFF3100555E07 /* Sources */,
+				885E713F1D4AFF3100555E07 /* Frameworks */,
+				885E71401D4AFF3100555E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885E71441D4AFF3100555E07 /* PBXTargetDependency */,
+			);
+			name = liudaliudaTests;
+			productName = liudaliudaTests;
+			productReference = 885E71421D4AFF3100555E07 /* liudaliudaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		885E714C1D4AFF3100555E07 /* liudaliudaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885E715C1D4AFF3100555E07 /* Build configuration list for PBXNativeTarget "liudaliudaUITests" */;
+			buildPhases = (
+				885E71491D4AFF3100555E07 /* Sources */,
+				885E714A1D4AFF3100555E07 /* Frameworks */,
+				885E714B1D4AFF3100555E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885E714F1D4AFF3100555E07 /* PBXTargetDependency */,
+			);
+			name = liudaliudaUITests;
+			productName = liudaliudaUITests;
+			productReference = 885E714D1D4AFF3100555E07 /* liudaliudaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		885E71211D4AFF3000555E07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "iMac OS";
+				TargetAttributes = {
+					885E71281D4AFF3000555E07 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					885E71411D4AFF3100555E07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 885E71281D4AFF3000555E07;
+					};
+					885E714C1D4AFF3100555E07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 885E71281D4AFF3000555E07;
+					};
+				};
+			};
+			buildConfigurationList = 885E71241D4AFF3000555E07 /* Build configuration list for PBXProject "liudaliuda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 885E71201D4AFF3000555E07;
+			productRefGroup = 885E712A1D4AFF3000555E07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885E71281D4AFF3000555E07 /* liudaliuda */,
+				885E71411D4AFF3100555E07 /* liudaliudaTests */,
+				885E714C1D4AFF3100555E07 /* liudaliudaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885E71271D4AFF3000555E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885E713C1D4AFF3100555E07 /* LaunchScreen.storyboard in Resources */,
+				885E71391D4AFF3100555E07 /* Assets.xcassets in Resources */,
+				885E71371D4AFF3100555E07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885E71401D4AFF3100555E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885E714B1D4AFF3100555E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		885E71251D4AFF3000555E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885E71341D4AFF3100555E07 /* ViewController.m in Sources */,
+				885E71311D4AFF3100555E07 /* AppDelegate.m in Sources */,
+				885E712E1D4AFF3100555E07 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885E713E1D4AFF3100555E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885E71471D4AFF3100555E07 /* liudaliudaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885E71491D4AFF3100555E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885E71521D4AFF3100555E07 /* liudaliudaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		885E71441D4AFF3100555E07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885E71281D4AFF3000555E07 /* liudaliuda */;
+			targetProxy = 885E71431D4AFF3100555E07 /* PBXContainerItemProxy */;
+		};
+		885E714F1D4AFF3100555E07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885E71281D4AFF3000555E07 /* liudaliuda */;
+			targetProxy = 885E714E1D4AFF3100555E07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		885E71351D4AFF3100555E07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885E71361D4AFF3100555E07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		885E713A1D4AFF3100555E07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885E713B1D4AFF3100555E07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		885E71541D4AFF3100555E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		885E71551D4AFF3100555E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		885E71571D4AFF3100555E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = liudaliuda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongyan4wd.liudaliuda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		885E71581D4AFF3100555E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = liudaliuda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongyan4wd.liudaliuda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		885E715A1D4AFF3100555E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = liudaliudaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongyan4wd.liudaliudaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liudaliuda.app/liudaliuda";
+			};
+			name = Debug;
+		};
+		885E715B1D4AFF3100555E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = liudaliudaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongyan4wd.liudaliudaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liudaliuda.app/liudaliuda";
+			};
+			name = Release;
+		};
+		885E715D1D4AFF3100555E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = liudaliudaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongyan4wd.liudaliudaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = liudaliuda;
+			};
+			name = Debug;
+		};
+		885E715E1D4AFF3100555E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = liudaliudaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongyan4wd.liudaliudaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = liudaliuda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		885E71241D4AFF3000555E07 /* Build configuration list for PBXProject "liudaliuda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885E71541D4AFF3100555E07 /* Debug */,
+				885E71551D4AFF3100555E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885E71561D4AFF3100555E07 /* Build configuration list for PBXNativeTarget "liudaliuda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885E71571D4AFF3100555E07 /* Debug */,
+				885E71581D4AFF3100555E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		885E71591D4AFF3100555E07 /* Build configuration list for PBXNativeTarget "liudaliudaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885E715A1D4AFF3100555E07 /* Debug */,
+				885E715B1D4AFF3100555E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		885E715C1D4AFF3100555E07 /* Build configuration list for PBXNativeTarget "liudaliudaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885E715D1D4AFF3100555E07 /* Debug */,
+				885E715E1D4AFF3100555E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 885E71211D4AFF3000555E07 /* Project object */;
+}
