@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import <MAMapKit/MAPolyline.h>
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic,strong)UITableView *tableview;
 
 
 @end

@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [AMapServices sharedServices].apiKey = @"fccb45127b01e48344fc429b6b4eacfb";
+    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
+    self.window.rootViewController = nvc;
+    
     return YES;
 }
 
